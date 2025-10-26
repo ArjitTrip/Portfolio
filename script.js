@@ -66,4 +66,14 @@ document.addEventListener('DOMContentLoaded', () => {
     activateNavLink(); // Call once on load
 
 });
+function openNewPage() {
+      // Open a new blank tab
+      const newWindow = window.open('', '_blank');
 
+      // Write a message inside the new page
+      newWindow.document.write('<h1>Sorry, for the inconvinience, Work in progress</h1>');
+      newWindow.document.write('<p>Currently working on the project.Completion deadbine by 15th November,2025</p>');
+      newWindow.document.title = "about blank";
+}
+
+ 
